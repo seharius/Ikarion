@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<meta charset="UTF-8">
+		<title>działania na potęgach i pierwiastkach</title>
+		<link rel="stylesheet" href="../CSS/General.css" type="text/css">
+		<link rel="stylesheet" href="../CSS/bar.css" type="text/css"> 
+		<link rel="stylesheet" href="../CSS/responsive.css" type="text/css">
+		<script src="../js/general.js" type="text/javascript"></script>
+		<script src="../js/dzialania_na_potengach_i_pierwiastkach.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="first">
+			<ul id="bar_menu">
+				<li>
+					<a href="index.html">STRONA GŁÓWNA</a>
+				</li>
+				<li>
+					<a href="matematycy.html">SŁYNNI MATEMATYCY</a>
+				</li>
+				<li>
+					<a href="dzialy.html">
+						<span>DZIAŁ</span>
+					</a>
+					<ul id="sub_menu">
+						<li>
+							<a href="dzial_1.html">DZIAŁ I</a>
+						</li>
+						<br>
+						<li>
+							<a href="dzial_2.html">DZIAŁ II</a>
+						</li>
+						<br>
+						<li>
+							<a href="dzial_3.html">DZIAŁ III</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="system_rzymski" id="div_system_rzymski">
+			<div>
+				<h1 id="number">działania na potęgach i pierwiastkach</h1>
+				<h1 id="number_1">nie zrobiliśmy żadnego zadania, z uwagi na to że sebastian nie rozwiąże żadnego zadania poprawnie</h1>
+			</div>
+			<div id="tematy">
+				<p id="wstęp"></p>
+			</div>
+			<br><br><br>
+			<div id="img-1">
+				<div>
+					<img src="http://static.opracowania.pl/images/188678/dzia%C5%82ania_na_pot%C4%99gach_1.gif" width=700 height=350>
+					<br>
+					<img src="http://matfiz24.pl/wp-content/uploads/2014/08/pierwiastki_wzory001.png" width=700 height=350>
+				</div>
+				<p class="wytłumaczenie">
+					1. W ramce obok zapisano równości tak zwane prawa działań, 
+					z których można korzystać, wykonywując obliczenia na liczbach zapisywanych w postaci potęg.
+					<br><br>
+					Uwaga. Równości te są spełnione, gdy wartosći potęg po obu stronach są określone. 
+					Na przykład liczba 0\0 nie jest określona, więc w równościanach, 
+					w kórych pojawia się zapis a\n, trzeba założyć, 
+					że liczby a oraz n nie mogą być jednocześnie równe 0
+					<br><br><br><br><br>
+					W kolejnej ramce zapisano prawa działań na pierwiastkach
+					<br><br>
+					Uwaga. Podobonie jak w wypadku praw działań na potęgach, 
+					równości te są spełnine, gdy pierwiastki w nich występujące są określone. 
+					Na przykład liczba występująca pod pierwiastkiem nie kwadratowym musi być nieujemna.
+				</p>
+				<br>
+				<button onclick="zastapic('div_system_rzymski', 'div_zadania'), losujLiczby()">przejdź do zadań</button>
+				<br>
+				<a href="dzialania_na_liczbach.html">
+					<button id="poprzedni">poprzedni temat</button>
+				</a>
+				<a href="dzial_2.html">
+					<button id="następny">następny dział</button>
+				</a>
+			</div>
+		</div>
+		<div class="zadania" id="div_zadania">
+			<h1 id="number">TEMAT:Dzialania na potęgach i pierwiastkach</h1>
+			<div id="polecenia">
+				<p id="polecenie_1">oblicz, Pamiętaj, aby zaokrąglić wynik z pierwiastka do części setnych</p>
+			</div>
+			<div id="podpunkt">
+				<div id="dobrze">
+					<p class="komunikat">Gratulacje</p>
+				</div>
+				<div id="zle">
+					<p class="komunikat">
+						nie udało ci się odpowiedzieć poprawnie. poprawna odpowiedź to <br>
+						<strong id="wynik"></strong>
+					</p>
+				</div>
+				<p id="polecenie">
+					<sup>2</sup>√1000
+					<textarea id="odpowiedz"></textarea>
+				</p>
+			</div>
+			<div id="img_1">
+				<span class="odpowiedz" id="pt-dobra">0</span>
+				<span class="odpowiedz" id="pt-zla">0</span>
+				<button id="btn-odpowiedz" onclick="sprawdz('dobrze'), losujLiczby()">sprawdź</button>
+				<br>
+				<button onclick="zastapic('div_zadania', 'div_system_rzymski')">powrót</button>
+			</div>
+			<div id="copyringht">
+					<p id="the_end">
+						ta strona jest zoptymalizowana do nauki i szkolenia.  Autografy 2019-2022 autorstwa Refsnes Data.  Wszelkie prawa zastrzeżone.
+						Wspierane przez fundacje Zloszek.
+					</p>
+			</div>
+		</div>
+	</body>
+</html>

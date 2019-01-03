@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<meta charset="UTF-8">
+		<title>trójkąty i czworokąty</title>
+		<link rel="stylesheet" href="../CSS/General.css" type="text/css">
+		<link rel="stylesheet" href="../CSS/bar.css" type="text/css"> 
+		<link rel="stylesheet" href="../CSS/responsive.css" type="text/css">
+		<script src="../js/general.js" type="text/javascript"></script>
+		<script src="../js/trojkaty_i_czworokaty.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="first">
+			<ul id="bar_menu">
+				<li>
+					<a href="index.html">STRONA GŁÓWNA</a>
+				</li>
+				<li>
+					<a href="matematycy.html">SŁYNNI MATEMATYCY</a>
+				</li>
+				<li>
+					<a href="dzialy.html">
+							<span>DZIAŁ</span>
+					</a>
+					<ul id="sub_menu">
+						<li>	
+							<a href="dzial_1.html">DZIAŁ I</a>
+						</li>
+					<br>
+						<li>
+							<a href="dzial_2.html">DZIAŁ II</a>
+						</li>
+					<br>
+						<li>
+							<a href="dzial_3.html">DZIAŁ III</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="system_rzymski" id="div_system_rzymski">
+			<div>
+				<h1 id="number">trójkąty i czworokąty<h1>
+				<h1 id="number_1">nie zrobiliśmy żadnego zadania, z uwagi na to że sebastian nie rozwiąże żadnego zadania poprawnie<h1>
+			</div>
+			<div id="tematy">
+				<p id="wstęp"></p>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div id="img-1">
+				<div>
+					<img src="../zdj_trójkąty i czworokąty.png" width=700 height=700>
+				</div>
+				<p class="wytłumaczenie">
+					W rozdziale uporządkujemy wiadomości o trójkątach i czworokątach. Zaczynamy od informacji o trójkątach ktróe są na obrazku po prawej. <br><br> 
+					Przypominamy, że każdy kwadrat jest rombem oraz prostokątem. Każty romb i każdy prostokąt jest równoległobkiem. Każdy równoległobok jest też trapezem.<br>
+					Wśród trapezów wyróżniamy trapezy równoramienne, czyli takie których ramiona mają równe długości, oraz trapezy prostokątne, w których  przynajmniej jedno ramię jest prostopadłe do podstaw.
+				</p>
+				<p id="przykłady"></p>
+				<p class="przykłady_1"></p>
+				<button id="zmienna_1" onclick="zastapic('zmienna_1','zmienna'), przelaczElementy('przykłady_1')">powrót</button>
+				<button id="zmienna" onclick="zastapic('zmienna','zmienna_1'), przelaczElementy('przykłady_1')">pokaż przykłady</button>
+				<br>
+				<button onclick="zastapic('div_system_rzymski', 'div_zadania'), losujLiczby()">przejdź do zadań</button>
+				<br>
+				<br>
+				<a href="dzial_2.html">
+					<button id="poprzedni">poprzedni dział</button>
+				</a>
+				<a href="twierdzenie_pitagorasa.html">
+					<button id="następny">następny temat</button>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="zadania" id="div_zadania">
+		<h1 id="number">TEMAT:liczenie kątów</h1>
+		<div id="polecenia">
+			<p id="polecenie_1">ile wynosi miara kątu alfa jeżeli pozostałe dwa kąty trójkąta mają miarę 60 i 60?</p>
+		</div>
+		<div id="podpunkt">
+			<div id="dobrze">
+				<p class="komunikat">Gratulacje</p>
+			</div>
+			<div id="zle">
+				<p class="komunikat">
+					nie udało ci się odpowiedzieć poprawnie. poprawna odpowiedź to <br>
+					<strong id="wynik"></strong>
+				</p>
+			</div>
+			<p id="polecenie">
+				kąt alfa wynosi :
+				<textarea id="odpowiedz"></textarea>
+			</p>
+		</div>
+		<div id="img_1">
+			<span class="odpowiedz" id="pt-dobra">0</span>
+			<span class="odpowiedz" id="pt-zla">0</span>
+			<button id="btn-odpowiedz" onclick="sprawdz(), losujLiczby(), czysc()">sprawdź</button>
+			<br>
+			<button onclick="zastapic('div_zadania', 'div_system_rzymski')">powrót</button>
+		</div>
+	</div> 
+	</body>
+</html>

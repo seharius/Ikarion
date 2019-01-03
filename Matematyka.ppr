@@ -1,0 +1,110 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.CompileOnBackground=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultDir=C:\Users\INFORMATYK\Desktop\praca z informatyki
+DefaultCP=65001
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=1
+FileFormat=0
+ProjectFilesOnly=0
+DocumentRoot=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML
+HTServer=localhost
+[Project tree]
+Matematyka
+	+CSS
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\CSS\bar.css
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\CSS\General.css
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\CSS\responsive.css
+	+HTML
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\index.html
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzial_1.html
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzial_2.html
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzial_3.html
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzialy.html
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\matematycy.html
+		C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\system_rzymski.html
+[Open project files]
+0=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\index.html
+1=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzial_1.html
+2=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzial_2.html
+3=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzial_3.html
+4=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzialy.html
+5=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\matematycy.html
+6=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\system_rzymski.html
+7=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\wlasnosci_liczb_naturalnych.html
+8=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\porownywanie_liczb.html
+9=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzialania_na_liczbach.html
+10=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\dzialania_na_potengach_i_pierwiastkach.html
+11=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\przeksztalcenia_algebraiczne.html
+12=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\rownania.html
+13=C:\Users\INFORMATYK\Desktop\praca z informatyki\CSS\bar.css
+14=C:\Users\INFORMATYK\Desktop\praca z informatyki\CSS\responsive.css
+15=C:\Users\INFORMATYK\Desktop\praca z informatyki\js\general.js
+16=C:\Users\INFORMATYK\Desktop\praca z informatyki\CSS\General.css
+17=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\proporcje.html
+18=C:\Users\INFORMATYK\Desktop\praca z informatyki\C++.c
+[Selected Project Files]
+Main=C:\Users\INFORMATYK\Desktop\praca z informatyki\HTML\index.html
+Selected=C:\Users\INFORMATYK\Desktop\praca z informatyki\C++.c
+[HTML\index.html]
+TopLine=1
+Caret=12,32
+[HTML\dzial_1.html]
+TopLine=1
+Caret=1,1
+[HTML\dzial_2.html]
+TopLine=1
+Caret=22,42
+[HTML\dzial_3.html]
+TopLine=1
+Caret=11,29
+[HTML\dzialy.html]
+TopLine=11
+Caret=1,44
+[HTML\matematycy.html]
+TopLine=1
+Caret=20,39
+[HTML\system_rzymski.html]
+TopLine=1
+Caret=156,48
+[HTML\wlasnosci_liczb_naturalnych.html]
+TopLine=14
+Caret=7,66
+[HTML\porownywanie_liczb.html]
+TopLine=30
+Caret=156,83
+[HTML\dzialania_na_liczbach.html]
+TopLine=19
+Caret=261,61
+[HTML\dzialania_na_potengach_i_pierwiastkach.html]
+TopLine=22
+Caret=156,75
+[HTML\przeksztalcenia_algebraiczne.html]
+TopLine=13
+Caret=72,19
+[HTML\rownania.html]
+TopLine=19
+Caret=121,72
+[CSS\bar.css]
+TopLine=15
+Caret=16,61
+[CSS\responsive.css]
+TopLine=1
+Caret=1,1
+[js\general.js]
+TopLine=1
+Caret=47,30
+[CSS\General.css]
+TopLine=92
+Caret=30,119
+[HTML\proporcje.html]
+TopLine=15
+Caret=351,60
+[C++.c]
+TopLine=1
+Caret=1,1

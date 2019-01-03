@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<meta charset="UTF-8">
+		<title>proporcje</title>
+		<link rel="stylesheet" href="../CSS/General.css" type="text/css">
+		<link rel="stylesheet" href="../CSS/bar.css" type="text/css"> 
+		<link rel="stylesheet" href="../CSS/responsive.css" type="text/css">
+		<script src="../js/general.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="first">
+			<ul id="bar_menu">
+				<li>
+					<a href="index.html">STRONA GŁÓWNA</a>
+				</li>
+				<li>
+					<a href="matematycy.html">SŁYNNI MATEMATYCY</a>
+				</li>
+				<li>
+					<a href="dzialy.html">
+						<span>DZIAŁ</span>
+					</a>
+					<ul id="sub_menu">
+						<li>
+							<a href="dzial_1.html">DZIAŁ I</a>
+						</li>
+						<br>
+						<li>
+							<a href="dzial_2.html">DZIAŁ II</a>
+						</li>
+						<br>
+						<li>
+							<a href="dzial_3.html">DZIAŁ III</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="system_rzymski" id="div_system_rzymski">
+			<div>
+				<h1 id="number">Proporcje</h1>
+				<h1 id="number_1">nie zrobiliśmy żadnego zadania, z uwagi na to że sebastian nie rozwiąże żadnego zadania poprawnie</h1>
+			</div>
+			<div id="tematy">
+				<p id="wstęp"></p>
+			</div>
+			<br><br><br>
+			<div id="img-1">
+				<div>
+					<img src="http://content.epodreczniki.pl/content/womi/74612/classic-1920.png" width=700 height=700>
+				</div>
+				<p class="wytłumaczenie">
+					Równość dwóch ilorazów nazywamy proporcją
+					<br><br>
+					a : b = c : d | czytamy: a ma się do b jak c do d; zakładamy, że b i d są różne od zera 
+					<br><br>
+					W każdej proporcji iloczyn wyrazów skrajnych jest równy iloczynowi wyrazów środkowych 
+					<br><br>
+					Jeżeli a : b = c : d to a * d = b * c.
+				</p>
+				<p id="przykłady">przy rozwiązywaniu równań, które mają postać proporcji, będziemy korzystać z powyższej własności.</p>
+				<p class="przykłady_1">
+					2 : x = 3 : (2x + 1) | 2 i 2x to wyrazy skrajne, 3 i x to wyrazy środkowe; zakładamy, że x nie jest równe 0 i 2x + 1 również nie jest równe 0
+					<br>
+					2(2x + 1) = 3x
+					<br>
+					4x + 2 = 3x | Iloczyn wyrazów skrajnychjest równy iloczynowi wyrazów środkowych.
+					<br>
+					x = -2 | Otrzymane rozwiązanie spełnia założenia.
+				</p>
+				<button id="zmienna_1" onclick="zastapic('zmienna_1','zmienna'), przelaczElementy('przykłady_1')">powrót</button>
+				<button id="zmienna" onclick="zastapic('zmienna','zmienna_1'), przelaczElementy('przykłady_1')">pokaż przykłady</button>
+				<br>
+				<button onclick="zastapic('div_system_rzymski', 'div_zadania'), losujLiczby()">przejdź do zadań</button>
+				<br><br>
+				<a href="rownania.html">
+					<button id="poprzedni">poprzedni temat</button>
+				</a>
+				<a href="wielkosci_wprost_proporcjonalne.html">
+					<button id="następny">następny temat</button>
+				</a>
+			</div>
+			<br><br><br><br><br><br><br><br><br><br>
+			<div id="copyringht">
+					<p id="the_end">
+						ta strona jest zoptymalizowana do nauki i szkolenia.  Autografy 2019-2022 autorstwa Refsnes Data.  Wszelkie prawa zastrzeżone.
+						Wspierane przez fundacje Zloszek.
+					</p>
+			</div>
+		</div>
+		<div class="zadania" id="div_zadania">
+			<h1 id="number">TEMAT:proporcje</h1>
+			<div id="polecenia">
+				<p id="polecenie_1">rozwiąż równania (a/b = b/a):</p>
+			</div>
+			<div id="podpunkt">
+				<div id="dobrze">
+					<p class="komunikat">Gratulacje</p>
+				</div>
+				<div id="zle">
+					<p class="komunikat">
+						nie udało ci się odpowiedzieć poprawnie. poprawna odpowiedź to
+						<br>
+						<strong id="wynik"></strong>
+					</p>
+				</div>
+				<p id="polecenie">
+					3
+					<textarea id="odpowiedz"></textarea>
+				</p>
+			</div>
+			<div id="img_1">
+				<span class="odpowiedz" id="pt-dobra">0</span>
+				<span class="odpowiedz" id="pt-zla">0</span>
+				<button id="btn-odpowiedz" onclick="sprawdz(), losujLiczby()">sprawdź</button>
+				<br>
+				<button onclick="zastapic('div_zadania', 'div_system_rzymski')">powrót</button>
+			</div>
+			<br><br><br><br><br><br>
+			<div id="copyringht">
+					<p id="the_end">
+						ta strona jest zoptymalizowana do nauki i szkolenia.  Autografy 2019-2022 autorstwa Refsnes Data.  Wszelkie prawa zastrzeżone.
+						Wspierane przez fundacje Zloszek.
+					</p>
+			</div>
+		</div>
+	</body>
+</html>

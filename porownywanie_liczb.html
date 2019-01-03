@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<meta charset="UTF-8">
+		<title>porównywanie liczb
+		</title>
+		<link rel="stylesheet" href="../CSS/General.css" type="text/css">
+		<link rel="stylesheet" href="../CSS/bar.css" type="text/css">
+		<link rel="stylesheet" href="../CSS/responsive.css" type="text/css">
+		<script src="../js/general.js" type="text/javascript"></script>
+		<script src="../js/porownywanie_liczb.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="first">
+			<ul id="bar_menu">
+				<li>
+					<a href="index.html">STRONA GŁÓWNA</a>
+				</li>
+				<li>
+					<a href="matematycy.html">SŁYNNI MATEMATYCY</a>
+				</li>
+				<li>
+					<a href="dzialy.html">
+						<span>DZIAŁ</span>
+					</a>
+					<ul id="sub_menu">
+						<li>
+							<a href="dzial_1.html">DZIAŁ I</a>
+						</li>
+						<br>
+						<li>
+							<a href="dzial_2.html">DZIAŁ II</a>
+						</li>
+						<br>
+						<li>
+							<a href="dzial_3.html">DZIAŁ III</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="system_rzymski" id="div_system_rzymski">
+			<div>
+				<h1 id="number">Porównywanie Liczb</h1>
+				<h1 id="number_1">nie zrobiliśmy żadnego zadania, z uwagi na to że sebastian nie rozwiąże żadnego zadania poprawnie</h1>
+			</div>
+			<div id="tematy">
+				<p id="wstęp"></p>
+			</div>
+			<br><br><br>
+			<div id="img-1">
+				<img src="https://slideplayer.pl/slide/804102/1/images/3/DEFINICJA+LICZBY+WYMIERNEJ..jpg" width=700 height=700 >
+				<p class="wytłumaczenie">
+					liczby, które można przedstawić w postaci ułamka m/n, gdzie m i n są liczbami całkowitymi i gdy n nie równa się zero , to w tedy nazywamy te liczby, liczbami wymiernymi.
+					<br>
+					liczbami wymiernymi są wszystkie liczby naturalne (0, 1, 2, 3,...), wszystkie liczby całkowite (..., -3, -2, -1, 0, 1, 2, 3, ...) oraz ułamki dodatnie i ujemne.
+					<br><br>
+					Przy zapisywaniu bardzo dużych lub bardzo małych liczb dodatnich posługujemy się czasem tzw. notacją wykładnniczą, czyli zapisem liczby w następującej postaci: 
+					<br><br>
+					a*10\n
+					<br>
+					a - liczba spełniająca warujek 1 < a < 10 
+					<br>
+					n - potęga liczby 10, n jest liczbą całkowitą
+				</p>
+				<p id="przykłady">Każda liczba wymierna ma rozwinięcie dziesiętne skończone lub nie skończone okresowe.</p>
+				<p class="przykłady_1">
+					1 3/125 = 1,024
+					<br>
+					-1 4/9 = -1,4444... = -1,(4)
+				</p>
+				<p id="przykłady">Ułamki zwykłe można rozszerzać lub skracać, ułamki niewłaściwe można zapisywaćw postaci liczb mieszanych.</p>
+				<p class="przykłady_1">
+					12:8 = 3:2 = 1 1:2 = 1,5
+					<br>
+					-2 3:5 = -2 6:10 = 2,6
+				</p>
+				<p id="przykłady">Dwa ułamki możemy porównać, gdy sprowadzimy je do spólnego mianownika lub do wspólnego licznika.</p>
+				<p class="przykłady_1">
+					a) Porównaj liczby a = 3:7 i b = 2:5. 
+					<br><br> 
+					a = 3:7 = 15:35  b = 2:5 = 14:35  |  sprowadzamy ułamki do wsólnego mianownika. 
+					<br><br> 15:35 > 14:35, więcej a > b | Gdy ułamki mają ten sam mianownik, to większy jest ten ułamek, który ma więkrzy licznik.
+				</p>
+				<button id="zmienna_1" onclick="zastapic('zmienna_1','zmienna'), przelaczElementy('przykłady_1')">powrót</button>
+				<button id="zmienna" onclick="zastapic('zmienna','zmienna_1'), przelaczElementy('przykłady_1')">pokaż przykłady</button>
+				<br>
+				<button onclick="zastapic('div_system_rzymski', 'div_zadania'), losujLiczby()">przejdź do zadań</button>
+				<br>
+				<a href="wlasnosci_liczb_naturalnych.html">
+					<button id="poprzedni">poprzedni temat</button>
+				</a>
+				<a href="dzialania_na_liczbach.html">
+					<button id="następny">następny temat</button>
+				</a>
+			</div>
+			<div id="copyringht">
+					<p id="the_end">
+						ta strona jest zoptymalizowana do nauki i szkolenia.  Autografy 2019-2022 autorstwa Refsnes Data.  Wszelkie prawa zastrzeżone.
+						Wspierane przez fundacje Zloszek.
+					</p>
+			</div>
+		</div>
+		<div class="zadania" id="div_zadania">
+			<h1 id="number">TEMAT:Porównywanie liczb</h1>
+			<div id="polecenia">
+				<p id="polecenie_1">wstaw znak "<", ">", lub "="</p>
+			</div>
+			<div id="podpunkt">
+				<div id="dobrze">
+					<p class="komunikat">Gratulacje</p>
+				</div>
+				<div id="zle">
+					<p class="komunikat">
+						nie udało ci się odpowiedzieć poprawnie. poprawna odpowiedź to
+						<strong id="wynik"></strong>
+					</p>
+				</div>
+				<p id="polecenie">
+					1000*1000
+					<textarea id="odpowiedz"></textarea>
+					1000*1000
+				</p>
+			</div>
+			<div id="img_1">
+				<span class="odpowiedz" id="pt-dobra">0</span>
+				<span class="odpowiedz" id="pt-zla">0</span>
+				<button id="btn-odpowiedz" onclick="sprawdz('dobrze'), losujLiczby()">sprawdź</button>
+				<br>
+				<button onclick="zastapic('div_zadania', 'div_system_rzymski')">powrót</button>
+			</div>
+			<br><br><br><br><br><br><br><br>
+			<div id="copyringht">
+					<p id="the_end">
+						ta strona jest zoptymalizowana do nauki i szkolenia.  Autografy 2019-2022 autorstwa Refsnes Data.  Wszelkie prawa zastrzeżone.
+						Wspierane przez fundacje Zloszek.
+					</p>
+			</div>
+		</div>
+	</body>
+</html>

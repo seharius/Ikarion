@@ -1,0 +1,16 @@
+@media screen and (max-width:1400px)
+{
+ .image_slot{display:block; width:50%; margin:5% auto 2.5% auto}
+}
+@media screen and (max-width:1080px)
+{
+ .image_slot{display:block; width:60%; margin:5% auto 2.5% auto}
+}
+@media screen and (max-width:860px)
+{
+ .image_slot{display:block; width:80%; margin:5% auto 2.5% auto}
+}
+@media screen and (max-width:660px)
+{
+ .image_slot{display:block; width:95%; margin:10% auto 5% auto}
+}
